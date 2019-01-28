@@ -19,7 +19,7 @@ public class Testtess2 {
 		tessInst.setDatapath("C://bin//Tess4J");
 
 		long sTime = new Date().getTime();
-		System.out.println("\n" + sTime + "\n");
+		System.out.println("\nStart Time" + sTime + "\n");
 		try {
 			System.out.println("Starting ocr.....\n");
 			// String result= tessInst.doOCR(image);
